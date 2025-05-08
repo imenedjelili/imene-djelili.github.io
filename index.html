@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="pageTitle">Imene Djelili Fatma - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/profile-pic.jpg" type="image/jpeg">
+</head>
+<body>
+    <div id="particles-js"></div> <!-- Global particles background -->
+
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+        <p data-translate="loading">Loading...</p>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo" data-translate="navLogo">Imene D.F</div>
+            <ul class="nav-links">
+                <li><a href="#hero" data-translate="navHome">Home</a></li>
+                <li><a href="#about" data-translate="navAbout">About</a></li>
+                <li><a href="#skills" data-translate="navSkills">Skills</a></li>
+                <li><a href="#projects" data-translate="navProjects">Projects</a></li>
+                <li><a href="#experience" data-translate="navExperience">Experience</a></li>
+                <li><a href="#education" data-translate="navEducation">Education</a></li>
+                <li><a href="#contact" data-translate="navContact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button data-lang="en" class="active">EN</button>
+                <button data-lang="fr">FR</button>
+                <button data-lang="ar">AR</button>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <img src="assets/images/profile-pic.jpg" alt="Imene Djelili Fatma" class="profile-pic animate-pop-in">
+                <h1 class="animate-slide-in-left" data-translate="heroName">Imene Djelili Fatma</h1>
+                <p class="subtitle animate-slide-in-right">
+                    <span data-translate="heroSubtitlePart1">AI & Cybersecurity Enthusiast</span>
+                    <span id="typed-text-container">| <span id="typed-text"></span></span>
+                </p>
+                <a href="#projects" class="cta-button animate-fade-in" data-translate="heroCTA">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="scroll-reveal">
+            <h2 data-translate="aboutTitle">About Me</h2>
+            <div class="about-content">
+                <p data-translate="aboutP1">Passionate about artificial intelligence and cybersecurity, with a particular interest in creating innovative solutions in these fields. Experienced in Python, C++, and modern AI frameworks, with solid skills in designing secure applications.</p>
+                <p data-translate="aboutP2">Currently pursuing a Bachelor's degree in Artificial Intelligence, specializing in AI-based systems, data security, and machine learning. Eager to apply my knowledge to real-world challenges and contribute to impactful projects.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="scroll-reveal">
+            <h2 data-translate="skillsTitle">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-translate="skillsProgLang">Programming Languages</h3>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
+                    <div class="skill-item">Assembly</div>
+                    <div class="skill-item"><i class="fab fa-dart"></i> Dart</div>
+                    <div class="skill-item"><i class="fab fa-php"></i> PHP</div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsAITools">AI Tools</h3>
+                    <div class="skill-item">TensorFlow</div>
+                    <div class="skill-item">OpenCV</div>
+                    <div class="skill-item">Scikit-learn</div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsSecTools">Security Tools</h3>
+                    <div class="skill-item">Wireshark</div>
+                    <div class="skill-item">Kali Linux</div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsWebTech">Web Technologies</h3>
+                    <div class="skill-item">Flask</div>
+                    <div class="skill-item">Django</div>
+                    <div class="skill-item"><i class="fab fa-laravel"></i> Laravel</div>
+                    <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsDB">Databases</h3>
+                    <div class="skill-item">MySQL</div>
+                </div>
+                 <div class="skill-category">
+                    <h3 data-translate="skillsOther">Other</h3>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-item">Agile Methodologies</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="scroll-reveal">
+            <h2 data-translate="projectsTitle">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal" data-project-id="confident-voice">
+                    <img src="assets/images/project-confident-voice.png" alt="Confident Voice Project">
+                    <div class="project-content">
+                        <h3 data-translate="project1Title">Confident Voice App</h3>
+                        <p data-translate="project1Role">UI/UX Designer, Full-Stack Developer</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">BLoC</span>
+                        </div>
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal" data-project-id="keylogger">
+                    <img src="assets/images/project-keylogger.png" alt="Keylogger Project">
+                    <div class="project-content">
+                        <h3 data-translate="project2Title">Keylogger with Dashboard</h3>
+                        <p data-translate="project2Role">Developer & Data Analyst</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal" data-project-id="voice-calculator">
+                    <img src="assets/images/project-calculator.png" alt="Voice Calculator Project">
+                    <div class="project-content">
+                        <h3 data-translate="project3Title">Voice-Controlled Calculator</h3>
+                        <p data-translate="project3Role">Voice Integration Developer</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Speech Recognition</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal" data-project-id="honeypot">
+                    <img src="assets/images/project-honeypot.png" alt="Honeypot Project">
+                    <div class="project-content">
+                        <h3 data-translate="project4Title">Honeypot Security Trap</h3>
+                        <p data-translate="project4Role">Cybersecurity Researcher</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Network Security</span>
+                            <span class="tech-tag">Monitoring</span>
+                        </div>
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="scroll-reveal">
+            <h2 data-translate="experienceTitle">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-translate="exp1Title">Web Development Intern</h3>
+                        <p><span data-translate="exp1Company">Thynk Tech, Algiers</span> | <span data-translate="exp1Date">2024-Present</span></p>
+                        <ul data-translate="exp1Desc" class="translatable-list">
+                            <li>Contributed to the development of the 'All Mall' e-commerce website.</li>
+                            <li>Participated in designing front-end components (React.js).</li>
+                            <li>Collaborated with the team to implement a responsive and ergonomic user interface.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-translate="exp2Title">Hackathon Participant - Hack & Train</h3>
+                        <p><span data-translate="exp2Company">Club SECAI, Algiers</span> | <span data-translate="exp2Date">2024</span></p>
+                        <ul data-translate="exp2Desc" class="translatable-list">
+                            <li>Participated in a 3-day competitive hackathon focused on AI and cybersecurity.</li>
+                            <li>Resolved 6 CTF challenges, including 3 related to concrete AI applications in security.</li>
+                            <li>Collaborated within a team of 4 on analysis, design, and technical resolution.</li>
+                            <li>Gained practical experience in rapid prototyping and using AI for security.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="scroll-reveal">
+            <h2 data-translate="educationTitle">Education</h2>
+             <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-translate="edu1Title">B.Sc. in Artificial Intelligence</h3>
+                        <p><span data-translate="edu1School">École Nationale Supérieure d'Intelligence Artificielle, Algiers</span></p>
+                        <p><span data-translate="edu1Date">2022 - Present (Expected Graduation: 2027)</span></p>
+                        <p data-translate="edu1Desc">Specialization in AI-based systems, data security, and machine learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Interests Section -->
+        <section id="interests" class="scroll-reveal">
+            <h2 data-translate="interestsTitle">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <i class="fas fa-users"></i>
+                    <h3 data-translate="interest1Title">Tech Communities</h3>
+                    <p data-translate="interest1Desc">Active member of AI and cybersecurity forums.</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-microphone-alt"></i>
+                    <h3 data-translate="interest2Title">Public Speaking</h3>
+                    <p data-translate="interest2Desc">Passionate about public speaking on AI, cybersecurity, and innovation.</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-search"></i>
+                    <h3 data-translate="interest3Title">Research</h3>
+                    <p data-translate="interest3Desc">Exploring AI security, cryptography, and ethical hacking.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Download Section -->
+        <section id="cv-download" class="scroll-reveal">
+            <h2 data-translate="cvTitle">Download CV</h2>
+            <div class="cv-download-container">
+                <div class="cv-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3 data-translate="cvEnglish">English Version</h3>
+                    <p data-translate="cvEnglishDesc">Download my CV in English</p>
+                    <a href="assets/cv/cv-english.pdf" class="cv-download-btn" download>
+                        <i class="fas fa-download"></i>
+                        <span data-translate="downloadCV">Download</span>
+                    </a>
+                </div>
+                <div class="cv-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3 data-translate="cvFrench">French Version</h3>
+                    <p data-translate="cvFrenchDesc">Download my CV in French</p>
+                    <a href="assets/cv/cv-french.pdf" class="cv-download-btn" download>
+                        <i class="fas fa-download"></i>
+                        <span data-translate="downloadCV">Download</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="scroll-reveal">
+            <h2 data-translate="contactTitle">Get In Touch</h2>
+            <p data-translate="contactIntro">Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of something amazing.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> <span data-translate="contactLocation">Sidi Abdellah, Algiers - Algeria</span></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:fatma.imene.djelili@ensia.edu.dz">fatma.imene.djelili@ensia.edu.dz</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+213666852888">+213 666 852 888</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/imene-djelili-741373319" target="_blank" rel="noopener noreferrer" data-translate="contactLinkedIn">LinkedIn Profile</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-translate="footerText">© 2025 Imene Djelili Fatma. All rights reserved.</p>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <img id="modalProjectImage" src="" alt="Project Image">
+            <h3 id="modalProjectTitle"></h3>
+            <p id="modalProjectRole"></p>
+            <div id="modalProjectTech"></div>
+            <p id="modalProjectDescription"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

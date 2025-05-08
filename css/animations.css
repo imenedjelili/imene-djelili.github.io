@@ -1,0 +1,76 @@
+/* Animation Keyframes */
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Animation Classes */
+.animate-pop-in {
+    animation: pop-in 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+    animation: slide-in-left 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+    animation: slide-in-right 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+}
+
+/* Animation Delays */
+.animate-pop-in {
+    animation-delay: 0.2s;
+}
+
+.animate-slide-in-left {
+    animation-delay: 0.4s;
+}
+
+.animate-slide-in-right {
+    animation-delay: 0.6s;
+}
+
+.animate-fade-in {
+    animation-delay: 0.8s;
+} 
