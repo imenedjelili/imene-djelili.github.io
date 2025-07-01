@@ -561,6 +561,39 @@ html[dir="rtl"] .timeline-content ul { padding-left: 0; padding-right: 20px; }
     gap: 25px;
     margin-top: 30px;
 }
+
+/* Certifications Section */
+
+
+.certification-item {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.certification-item h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.certification-item p {
+    color: var(--slate);
+    margin-bottom: 1.5rem;
+}
+
+.certification-item img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px auto 8px auto;
+    display: block;
+}
 .interest-item {
     background-color: var(--secondary-color); /* Or primary if section bg is secondary */
     padding: 30px;
@@ -801,6 +834,14 @@ html[dir="rtl"] .close-btn { float: left; }
     
     .project-card {
         max-width: 100%;
+    }
+    
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .certification-item img {
+        max-width: 95vw;
     }
 
     #modalProjectTitle {

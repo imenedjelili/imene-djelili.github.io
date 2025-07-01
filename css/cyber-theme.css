@@ -110,7 +110,7 @@ h1, h2, h3, h4 {
 
 .project-cert-image {
   display: block;
-  max-width: 240px;
+  max-width: 80px;
   width: 100%;
   height: auto;
   margin: 12px auto 8px auto;
@@ -211,7 +211,7 @@ footer {
     padding: 12px 6px;
   }
   .project-cert-image {
-    max-width: 80vw;
+    max-width: 50vw;
   }
 }
 
