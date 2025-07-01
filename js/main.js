@@ -107,6 +107,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
         langButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
         
+        // Toggle special Arabic timeline style
+        document.querySelectorAll('.timeline').forEach(timeline => {
+            if (lang === 'ar') {
+                timeline.classList.add('timeline-ar');
+                timeline.style.display = 'none';
+            } else {
+                timeline.classList.remove('timeline-ar');
+                timeline.style.display = '';
+            }
+        });
+        document.querySelectorAll('.simple-list-ar').forEach(list => {
+            if (lang === 'ar') {
+                list.style.display = '';
+            } else {
+                list.style.display = 'none';
+            }
+        });
+        
         typedTextIndex = 0;
         currentTypedText = "";
         isDeleting = false;

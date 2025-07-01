@@ -791,7 +791,7 @@ html[dir="rtl"] .close-btn { float: left; }
     html[dir="rtl"] .timeline-item:nth-child(odd), html[dir="rtl"] .timeline-item:nth-child(even) { left: 0; }
     .timeline-item::after { left: 15px; }
     html[dir="rtl"] .timeline-item::after { left: auto; right: 15px; }
-    .timeline-item::before { display: none; }
+    .timeline-item::before { dizsplay: none; }
     .modal-content { padding: 25px; margin: 10% auto; } /* Adjusted margin */
 
     .projects-grid {

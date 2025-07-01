@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/images/profile-pic.jpg" type="image/jpeg">
 </head>
 <body>
-    <div id="particles-js"></div> <!-- Global particles background -->
+    <div id="particles-js"></div>
 
     <div id="loader-wrapper">
         <div class="loader"></div>
@@ -27,6 +27,8 @@
                 <li><a href="#projects" data-translate="navProjects">Projects</a></li>
                 <li><a href="#experience" data-translate="navExperience">Experience</a></li>
                 <li><a href="#education" data-translate="navEducation">Education</a></li>
+                <li><a href="#certifications" data-translate="navCertifications">Certifications</a></li>
+                <li><a href="#languages" data-translate="navLanguages">Languages</a></li>
                 <li><a href="#contact" data-translate="navContact">Contact</a></li>
             </ul>
             <div class="language-switcher">
@@ -60,8 +62,7 @@
         <section id="about" class="scroll-reveal">
             <h2 data-translate="aboutTitle">About Me</h2>
             <div class="about-content">
-                <p data-translate="aboutP1">Passionate about artificial intelligence and cybersecurity, with a particular interest in creating innovative solutions in these fields. Experienced in Python, C++, and modern AI frameworks, with solid skills in designing secure applications.</p>
-                <p data-translate="aboutP2">Currently pursuing a Bachelor's degree in Artificial Intelligence, specializing in AI-based systems, data security, and machine learning. Eager to apply my knowledge to real-world challenges and contribute to impactful projects.</p>
+                <p data-translate="aboutP1">Motivated and curious Artificial Intelligence student at ENSIA, expected 2027 graduate. Passionate about cybersecurity and intelligent systems. Solid foundation in machine learning, Python, secure web technologies, and real-world applications.</p>
             </div>
         </section>
 
@@ -75,36 +76,41 @@
                     <div class="skill-item">C++</div>
                     <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
                     <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
-                    <div class="skill-item">Assembly</div>
                     <div class="skill-item"><i class="fab fa-dart"></i> Dart</div>
-                    <div class="skill-item"><i class="fab fa-php"></i> PHP</div>
                 </div>
                 <div class="skill-category">
-                    <h3 data-translate="skillsAITools">AI Tools</h3>
-                    <div class="skill-item">TensorFlow</div>
-                    <div class="skill-item">OpenCV</div>
+                    <h3 data-translate="skillsFrameworks">Frameworks</h3>
+                    <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                    <div class="skill-item"><i class="fab fa-flask"></i> Flask</div>
+                    <div class="skill-item"><i class="fab fa-django"></i> Django</div>
+                    <div class="skill-item"><i class="fab fa-flutter"></i> Flutter</div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsAIML">AI/ML</h3>
                     <div class="skill-item">Scikit-learn</div>
+                    <div class="skill-item">DBSCAN</div>
+                    <div class="skill-item">Pandas</div>
                 </div>
                 <div class="skill-category">
-                    <h3 data-translate="skillsSecTools">Security Tools</h3>
-                    <div class="skill-item">Wireshark</div>
-                    <div class="skill-item">Kali Linux</div>
-                </div>
-                <div class="skill-category">
-                    <h3 data-translate="skillsWebTech">Web Technologies</h3>
-                    <div class="skill-item">Flask</div>
-                    <div class="skill-item">Django</div>
-                    <div class="skill-item"><i class="fab fa-laravel"></i> Laravel</div>
-                    <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <h3 data-translate="skillsTools">Tools</h3>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">Firebase</div>
+                    <div class="skill-item">JIRA</div>
                 </div>
                 <div class="skill-category">
                     <h3 data-translate="skillsDB">Databases</h3>
+                    <div class="skill-item">SQLite</div>
+                    <div class="skill-item">PostgreSQL</div>
                     <div class="skill-item">MySQL</div>
                 </div>
-                 <div class="skill-category">
-                    <h3 data-translate="skillsOther">Other</h3>
-                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
-                    <div class="skill-item">Agile Methodologies</div>
+                <div class="skill-category">
+                    <h3 data-translate="skillsSoft">Soft Skills</h3>
+                    <div class="skill-item">Teamwork</div>
+                    <div class="skill-item">Communication</div>
+                    <div class="skill-item">Agile</div>
+                    <div class="skill-item">Critical Thinking</div>
+                    <div class="skill-item">Time Management</div>
                 </div>
             </div>
         </section>
@@ -116,8 +122,8 @@
                 <div class="project-card scroll-reveal" data-project-id="confident-voice">
                     <img src="assets/images/project-confident-voice.png" alt="Confident Voice Project">
                     <div class="project-content">
-                        <h3 data-translate="project1Title">Confident Voice App</h3>
-                        <p data-translate="project1Role">UI/UX Designer, Full-Stack Developer</p>
+                        <h3 data-translate="project1Title">Confident Voice (2024)</h3>
+                        <p data-translate="project1Role">Flutter app with recorder, warm-ups, and progress tracker.</p>
                         <div class="project-tech-stack">
                             <span class="tech-tag">Flutter</span>
                             <span class="tech-tag">Firebase</span>
@@ -126,41 +132,73 @@
                         <span class="view-details-btn" data-translate="viewDetails">View Details</span>
                     </div>
                 </div>
-                <div class="project-card scroll-reveal" data-project-id="keylogger">
-                    <img src="assets/images/project-keylogger.png" alt="Keylogger Project">
+                <div class="project-card scroll-reveal" data-project-id="all-mall">
+                    <div class="project-image-container">
+                        <img src="assets/images/allmall.png" alt="All Mall Website">
+                        <div class="project-image-badge">Thynk Tech Internship</div>
+                    </div>
                     <div class="project-content">
-                        <h3 data-translate="project2Title">Keylogger with Dashboard</h3>
-                        <p data-translate="project2Role">Developer & Data Analyst</p>
+                        <h3 data-translate="project2Title">All Mall Website (2024–2025)</h3>
+                        <p data-translate="project2Role">Frontend dev with React during Thynk Tech internship.</p>
                         <div class="project-tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JIRA</span>
+                        </div>
+                        <img class="project-cert-image" src="assets/images/thynckcettificate.png" alt="Thynk Tech Internship Certificate">
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal" data-project-id="ai-chatbot">
+                    <div class="project-image-container">
+                        <img src="assets/images/bomare.png" alt="AI Chatbot BOMARE">
+                        <div class="project-image-badge">Bomare Internship</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="project3Title">AI Chatbot – BOMARE (2025)</h3>
+                        <p data-translate="project3Role">NLP chatbot in Algerian dialect for after-sales service.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">NLP</span>
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Data Analysis</span>
-                            <span class="tech-tag">Security</span>
                         </div>
                         <span class="view-details-btn" data-translate="viewDetails">View Details</span>
                     </div>
                 </div>
-                <div class="project-card scroll-reveal" data-project-id="voice-calculator">
-                    <img src="assets/images/project-calculator.png" alt="Voice Calculator Project">
+                <div class="project-card scroll-reveal" data-project-id="sim-card-detection">
+                    <img src="assets/images/simcard.png" alt="SIM Card User Detection">
                     <div class="project-content">
-                        <h3 data-translate="project3Title">Voice-Controlled Calculator</h3>
-                        <p data-translate="project3Role">Voice Integration Developer</p>
+                        <h3 data-translate="project4Title">SIM Card User Detection (2025)</h3>
+                        <p data-translate="project4Role">Unsupervised clustering to detect multi-SIM clients.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">DBSCAN</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <span class="view-details-btn" data-translate="viewDetails">View Details</span>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal" data-project-id="keylogger">
+                    <img src="assets/images/project-keylogger.png" alt="Keylogger Project">
+                    <div class="project-content">
+                        <h3 data-translate="project5Title">Keylogger + Dashboard (2025)</h3>
+                        <p data-translate="project5Role">Python-Flask keylogger with SQLite.</p>
                         <div class="project-tech-stack">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Speech Recognition</span>
-                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQLite</span>
                         </div>
                         <span class="view-details-btn" data-translate="viewDetails">View Details</span>
                     </div>
                 </div>
                 <div class="project-card scroll-reveal" data-project-id="honeypot">
-                    <img src="assets/images/project-honeypot.png" alt="Honeypot Project">
+                    <div class="project-image-container">
+                        <img src="assets/images/project-honeypot.png" alt="Honeypot Project">
+                        <div class="project-image-badge">CyberSec Project</div>
+                    </div>
                     <div class="project-content">
-                        <h3 data-translate="project4Title">Honeypot Security Trap</h3>
-                        <p data-translate="project4Role">Cybersecurity Researcher</p>
+                        <h3 data-translate="project6Title">Honeypot Simulation (2025)</h3>
+                        <p data-translate="project6Role">Docker-based attack simulation environment.</p>
                         <div class="project-tech-stack">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Network Security</span>
-                            <span class="tech-tag">Monitoring</span>
+                            <span class="tech-tag">Docker</span>
                         </div>
                         <span class="view-details-btn" data-translate="viewDetails">View Details</span>
                     </div>
@@ -174,26 +212,37 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3 data-translate="exp1Title">Web Development Intern</h3>
-                        <p><span data-translate="exp1Company">Thynk Tech, Algiers</span> | <span data-translate="exp1Date">2024-Present</span></p>
+                        <h3 data-translate="exp1Title">AI Intern – BOMARE Company</h3>
+                        <p><span data-translate="exp1Company">BOMARE Company, Algiers</span> | <span data-translate="exp1Date">Mar–Apr 2025</span></p>
                         <ul data-translate="exp1Desc" class="translatable-list">
-                            <li>Contributed to the development of the 'All Mall' e-commerce website.</li>
-                            <li>Participated in designing front-end components (React.js).</li>
-                            <li>Collaborated with the team to implement a responsive and ergonomic user interface.</li>
+                            <li>Led team for NLP after-sales service bot.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3 data-translate="exp2Title">Hackathon Participant - Hack & Train</h3>
-                        <p><span data-translate="exp2Company">Club SECAI, Algiers</span> | <span data-translate="exp2Date">2024</span></p>
+                        <h3 data-translate="exp2Title">Frontend Developer – Thynk Tech Dz</h3>
+                        <p><span data-translate="exp2Company">Thynk Tech, Algiers</span> | <span data-translate="exp2Date">May–Jun 2024</span></p>
                         <ul data-translate="exp2Desc" class="translatable-list">
-                            <li>Participated in a 3-day competitive hackathon focused on AI and cybersecurity.</li>
-                            <li>Resolved 6 CTF challenges, including 3 related to concrete AI applications in security.</li>
-                            <li>Collaborated within a team of 4 on analysis, design, and technical resolution.</li>
-                            <li>Gained practical experience in rapid prototyping and using AI for security.</li>
+                            <li>React frontend developer for e-commerce site.</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="simple-list-ar" style="display:none">
+                <div class="simple-card-ar">
+                    <h3 data-translate="exp1Title">AI Intern – BOMARE Company</h3>
+                    <p><span data-translate="exp1Company">BOMARE Company, Algiers</span> | <span data-translate="exp1Date">Mar–Apr 2025</span></p>
+                    <ul data-translate="exp1Desc" class="translatable-list">
+                        <li>Led team for NLP after-sales service bot.</li>
+                    </ul>
+                </div>
+                <div class="simple-card-ar">
+                    <h3 data-translate="exp2Title">Frontend Developer – Thynk Tech Dz</h3>
+                    <p><span data-translate="exp2Company">Thynk Tech, Algiers</span> | <span data-translate="exp2Date">May–Jun 2024</span></p>
+                    <ul data-translate="exp2Desc" class="translatable-list">
+                        <li>React frontend developer for e-commerce site.</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -204,33 +253,99 @@
              <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3 data-translate="edu1Title">B.Sc. in Artificial Intelligence</h3>
+                        <h3 data-translate="edu1Title">B.Sc. in Artificial Intelligence / Data Science</h3>
                         <p><span data-translate="edu1School">École Nationale Supérieure d'Intelligence Artificielle, Algiers</span></p>
                         <p><span data-translate="edu1Date">2022 - Present (Expected Graduation: 2027)</span></p>
-                        <p data-translate="edu1Desc">Specialization in AI-based systems, data security, and machine learning.</p>
+                        <p data-translate="edu1Desc">Courses: Machine Learning, NLP, Secure Systems, Deep Learning. Specialization in AI-based systems, data security, and machine learning.</p>
                     </div>
+                </div>
+            </div>
+            <div class="simple-list-ar" style="display:none">
+                <div class="simple-card-ar">
+                    <h3 data-translate="edu1Title">B.Sc. in Artificial Intelligence / Data Science</h3>
+                    <p><span data-translate="edu1School">École Nationale Supérieure d'Intelligence Artificielle, Algiers</span></p>
+                    <p><span data-translate="edu1Date">2022 - Present (Expected Graduation: 2027)</span></p>
+                    <p data-translate="edu1Desc">Courses: Machine Learning, NLP, Secure Systems, Deep Learning. Specialization in AI-based systems, data security, and machine learning.</p>
                 </div>
             </div>
         </section>
         
+        <!-- Certifications Section -->
+        <section id="certifications" class="scroll-reveal">
+            <h2 data-translate="certificationsTitle">Certifications & Recognition</h2>
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <h3 data-translate="cert1Title">Jury Member – National AI Olympiad 2025</h3>
+                    <p data-translate="cert1Desc">Recognized for contribution as a jury member in the National AI Olympiad.</p>
+                    <img class="project-cert-image" src="assets/images/olympiadecertificate.png" alt="Olympiad Jury Certificate">
+                </div>
+                <div class="certification-item">
+                    <h3 data-translate="cert2Title">Finalist – Hack&Train Hackathon 2025</h3>
+                    <p data-translate="cert2Desc">Finalist in the Hack&Train Hackathon focused on AI and cybersecurity.</p>
+                </div>
+                <div class="certification-item">
+                    <h3 data-translate="certMathuranceTitle">Participant – Mathurance Hackathon 2025</h3>
+                    <p data-translate="certMathuranceDesc">Participated in the Mathurance Hackathon, showcasing AI and mathematical problem-solving skills.</p>
+                    <img class="project-cert-image" src="assets/images/mathurancecertificate.png" alt="Mathurance Hackathon Certificate">
+                </div>
+                <div class="certification-item">
+                    <h3 data-translate="cert3Title">Internship – Thynk Tech (2025)</h3>
+                    <p data-translate="cert3Desc">Certificate of Excellence for internship at Thynk Tech.</p>
+                </div>
+                <div class="certification-item">
+                    <h3 data-translate="cert4Title">Internship – BOMARE (2025)</h3>
+                    <p data-translate="cert4Desc">Certificate of Excellence for internship at BOMARE Company.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Languages Section -->
+        <section id="languages" class="scroll-reveal">
+            <h2 data-translate="languagesTitle">Languages</h2>
+            <div class="languages-grid">
+                <div class="language-item">
+                    <h3 data-translate="langArabic">Arabic</h3>
+                    <p data-translate="langArabicLevel">Native</p>
+                </div>
+                <div class="language-item">
+                    <h3 data-translate="langEnglish">English</h3>
+                    <p data-translate="langEnglishLevel">Fluent</p>
+                </div>
+                <div class="language-item">
+                    <h3 data-translate="langFrench">French</h3>
+                    <p data-translate="langFrenchLevel">Proficient</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Interests Section -->
         <section id="interests" class="scroll-reveal">
             <h2 data-translate="interestsTitle">Interests</h2>
             <div class="interests-grid">
                 <div class="interest-item">
-                    <i class="fas fa-users"></i>
-                    <h3 data-translate="interest1Title">Tech Communities</h3>
-                    <p data-translate="interest1Desc">Active member of AI and cybersecurity forums.</p>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 data-translate="interest1Title">Cybersecurity</h3>
+                    <p data-translate="interest1Desc">Exploring security, honeypots, and ethical hacking.</p>
                 </div>
                 <div class="interest-item">
-                    <i class="fas fa-microphone-alt"></i>
-                    <h3 data-translate="interest2Title">Public Speaking</h3>
-                    <p data-translate="interest2Desc">Passionate about public speaking on AI, cybersecurity, and innovation.</p>
+                    <i class="fas fa-city"></i>
+                    <h3 data-translate="interest2Title">Smart Cities</h3>
+                    <p data-translate="interest2Desc">Interested in AI-driven urban innovation.</p>
                 </div>
                 <div class="interest-item">
-                    <i class="fas fa-search"></i>
-                    <h3 data-translate="interest3Title">Research</h3>
-                    <p data-translate="interest3Desc">Exploring AI security, cryptography, and ethical hacking.</p>
+                    <i class="fas fa-balance-scale"></i>
+                    <h3 data-translate="interest3Title">AI Ethics</h3>
+                    <p data-translate="interest3Desc">Passionate about responsible AI and ethics.</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-gamepad"></i>
+                    <h3 data-translate="interest4Title">eSports</h3>
+                    <p data-translate="interest4Desc">Competitive gaming and strategy.</p>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3 data-translate="interest5Title">UI/UX</h3>
+                    <p data-translate="interest5Desc">Designing intuitive and beautiful interfaces.</p>
                 </div>
             </div>
         </section>
