@@ -287,14 +287,14 @@ const projectDetails = {
             role: "Frontend Developer",
             tech: ["React", "JavaScript", "HTML/CSS", "UI/UX Design"],
             description: "Led the frontend development for the 'All Mall' e-commerce platform during an internship at Thynk Tech. My responsibilities included translating Figma designs into high-quality, responsive React components and collaborating with the backend team to ensure seamless API integration.",
-            image: "assets/images/project-confident-voice.png" // Replace with actual project image
+            image: "assets/images/allmall.png"
         },
         'ai-chatbot': {
             title: "AI Chatbot for Customer Service (BOMARE)",
             role: "Team Lead & NLP Developer",
             tech: ["Python", "NLP", "Machine Learning", "Algerian Dialect Processing"],
             description: "As team lead for an AI internship project with BOMARE, I spearheaded the development of an NLP-based chatbot for after-sales service. The key challenge and achievement was processing and understanding the Algerian dialect to provide accurate and efficient customer support.",
-            image: "assets/images/project-confident-voice.png" // Replace with actual project image
+            image: "assets/images/bomare.png"
         },
         'keylogger': {
             title: "Keylogger with Analysis Dashboard",
@@ -322,24 +322,23 @@ const projectDetails = {
             role: "Data Scientist",
             tech: ["Python", "Scikit-learn", "DBSCAN", "Unsupervised ML"],
             description: "An academic project focused on identifying clients using multiple SIM cards from call data records. I applied unsupervised machine learning, specifically the DBSCAN clustering algorithm, to group activities and flag potential multi-SIM users without prior labeling.",
-            image: "assets/images/project-confident-voice.png" // Replace with actual project image
+            image: "assets/images/simcard.png"
         }
     },
     fr: {
-        // ... (Corresponding French translations for projectDetails) ...
         'all-mall': {
             title: "Site E-commerce All Mall",
             role: "Développeuse Frontend",
             tech: ["React", "JavaScript", "HTML/CSS", "Design UI/UX"],
             description: "Direction du développement frontend pour la plateforme e-commerce 'All Mall' lors d'un stage chez Thynk Tech. Mes responsabilités comprenaient la traduction de maquettes Figma en composants React réactifs et de haute qualité, et la collaboration avec l'équipe backend pour une intégration API transparente.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/allmall.png"
         },
         'ai-chatbot': {
             title: "Chatbot IA pour Service Client (BOMARE)",
             role: "Chef d'Équipe & Développeuse NLP",
             tech: ["Python", "NLP", "Machine Learning", "Traitement du dialecte algérien"],
             description: "En tant que chef d'équipe pour un projet de stage en IA avec BOMARE, j'ai dirigé le développement d'un chatbot basé sur le NLP pour le service après-vente. Le principal défi et la réussite ont été le traitement et la compréhension du dialecte algérien pour fournir un support client précis et efficace.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/bomare.png"
         },
         'keylogger': {
             title: "Keylogger avec Tableau de Bord d'Analyse",
@@ -367,24 +366,23 @@ const projectDetails = {
             role: "Data Scientist",
             tech: ["Python", "Scikit-learn", "DBSCAN", "ML non supervisé"],
             description: "Un projet académique axé sur l'identification des clients utilisant plusieurs cartes SIM à partir des données d'appel. J'ai appliqué l'apprentissage automatique non supervisé, en particulier l'algorithme de clustering DBSCAN, pour regrouper les activités et signaler les utilisateurs potentiels de multi-SIM sans étiquetage préalable.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/simcard.png"
         }
     },
     ar: {
-        // ... (Corresponding Arabic translations for projectDetails) ...
         'all-mall': {
             title: "موقع All Mall للتجارة الإلكترونية",
             role: "مُطورة واجهات أمامية",
             tech: ["React", "JavaScript", "HTML/CSS", "تصميم واجهة المستخدم"],
             description: "قمت بقيادة تطوير الواجهة الأمامية لمنصة 'All Mall' للتجارة الإلكترونية خلال فترة تدريب في Thynk Tech. تضمنت مسؤولياتي تحويل تصميمات Figma إلى مكونات React عالية الجودة وسريعة الاستجابة والتعاون مع فريق الواجهة الخلفية لضمان تكامل سلس لواجهات برمجة التطبيقات.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/allmall.png"
         },
         'ai-chatbot': {
             title: "بوت محادثة ذكي لخدمة العملاء (BOMARE)",
             role: "قائدة فريق ومطورة معالجة لغات طبيعية",
             tech: ["Python", "معالجة اللغات الطبيعية", "تعلم الآلة", "معالجة اللهجة الجزائرية"],
             description: "بصفتي قائدة فريق لمشروع تدريب في الذكاء الاصطناعي مع شركة BOMARE، أشرفت على تطوير بوت محادثة يعتمد على معالجة اللغات الطبيعية لخدمة ما بعد البيع. كان التحدي والإنجاز الرئيسي هو معالجة وفهم اللهجة الجزائرية لتقديم دعم عملاء دقيق وفعال.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/bomare.png"
         },
         'keylogger': {
             title: "مسجل ضغطات المفاتيح مع لوحة تحكم تحليلية",
@@ -412,7 +410,7 @@ const projectDetails = {
             role: "عالمة بيانات",
             tech: ["Python", "Scikit-learn", "DBSCAN", "تعلم آلي غير موجه"],
             description: "مشروع أكاديمي يركز على تحديد العملاء الذين يستخدمون بطاقات SIM متعددة من سجلات بيانات المكالمات. طبقت تعلم الآلة غير الموجه، وتحديداً خوارزمية التجميع DBSCAN، لتجميع الأنشطة والإبلاغ عن المستخدمين المحتملين لبطاقات SIM متعددة دون تصنيف مسبق.",
-            image: "assets/images/project-confident-voice.png"
+            image: "assets/images/simcard.png"
         }
     }
 };
